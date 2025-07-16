@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário - Certificado ITBI</title>
+</head>
+<body>
+    <h2>Formulário - Geração de Certificado ITBI</h2>
+    <form action="/gerar" method="post">
+        <label>Nº de Controle: <input type="text" name="controle" required></label><br>
+        <label>Processo: <input type="text" name="processo" required></label><br>
+        <label>Matrícula do imóvel: <input type="text" name="matricula" required></label><br>
+        <label>Endereço do imóvel: <input type="text" name="endereco" required></label><br>
+        <label>Adquirente(s): <input type="text" name="adquirentes" required></label><br>
+        <label>Transmitente(s): <input type="text" name="transmitentes" required></label><br>
+        <label>Outro Transmitente (opcional): <input type="text" name="outro_transmitente"></label><br>
+        <label>Natureza da Transação: <input type="text" name="natureza" required></label><br>
+        <label>Parte transferida do imóvel: <input type="text" name="parte_transferida" required></label><br>
+        <label>Valor Integralizado: <input type="text" name="valor_integralizado" required></label><br>
+        <label>Valor do ITBI: <input type="text" name="valor_itbi" required></label><br>
+        <label>Tributação: <input type="text" name="tributacao" required></label><br>
+        <label>Notificação de Lançamento: <input type="text" name="notificacao" required></label><br>
+        <label>Ano da Aquisição: <input type="text" name="ano_aquisicao" required></label><br>
+        <label>Anos de Preponderância: <input type="text" name="anos_preponderancia" required></label><br>
+        <label>Data de validade (CERTIFICADO VÁLIDO ATÉ): <input type="text" name="validade" required></label><br>
+        <label>Data da emissão (ex: Niterói, 27 de junho de 2025): <input type="text" name="data_emissao" required></label><br><br>
+        <input type="submit" value="Gerar Documento">
+    </form>
+</body>
+</html>

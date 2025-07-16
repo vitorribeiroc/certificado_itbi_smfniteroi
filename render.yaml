@@ -1,0 +1,10 @@
+
+services:
+  - type: web
+    name: certificado-itbi
+    runtime: python
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11
